@@ -18,6 +18,6 @@ Features
   * schedule sleep timers 
   * schedule alarms - use your receiver as personal alarm clock
 
-Screeshot
+Screenshot
 -------------------------
 ![screenshot](https://github.com/Mononofu/WakeOnTelnet/raw/master/WakeOnTelnet.png)
