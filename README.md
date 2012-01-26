@@ -6,11 +6,11 @@ However, currently I've hardcoded the IP of the receiver, so you'd need to chang
 that for your own receiver.
 
 Features
-	* mute / unmute
-	* power on / off
-	* volume control
-	* switch between input sources
-	* schedule sleep timers 
-	* schedule alarms - use your receiver as personal alarm clock
+* mute / unmute
+* power on / off
+* volume control
+* switch between input sources
+* schedule sleep timers 
+* schedule alarms - use your receiver as personal alarm clock
 
 ![screenshot](https://github.com/Mononofu/WakeOnTelnet/raw/master/WakeOnTelnet.png)
