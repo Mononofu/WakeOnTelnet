@@ -14,7 +14,7 @@
 	<LinearLayout
        android:orientation="horizontal"
        android:layout_width="fill_parent"
-       android:layout_height="fill_parent">
+       android:layout_height="wrap_content">
 
 		<Button   android:id="@+id/alarmbtn"
 				    android:layout_width="fill_parent"
@@ -48,12 +48,6 @@
 					    android:layout_weight="25"
 					    android:text="Mute" />
 
-		    <Button   android:id="@+id/onbtn"
-					    android:layout_width="fill_parent"
-					    android:layout_height="wrap_content"
-					    android:layout_weight="25"
-					    android:text="Off" />
-
 		    <Button   android:id="@+id/tunerbtn"
 					    android:layout_width="fill_parent"
 					    android:layout_height="wrap_content"
@@ -65,6 +59,12 @@
 					    android:layout_height="wrap_content"
 					    android:layout_weight="25"
 					    android:text="Laptop" />
+
+        <Button   android:id="@+id/tvbtn"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="25"
+              android:text="TV" />
   </LinearLayout>
 
 
@@ -125,5 +125,19 @@
 		            android:progress="10"
     	    	    android:gravity="center_vertical"
 				    android:layout_height="30dip" />
+
+      <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:gravity="center_vertical"
+       android:layout_height="100dip">
+
+            <Button   android:id="@+id/onbtn"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_horizontal|center_vertical"
+                  android:layout_weight="1"
+                  android:text="Off" />
+    </LinearLayout>
 
 </LinearLayout>

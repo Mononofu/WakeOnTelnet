@@ -57,4 +57,5 @@ object Commander {
 
 	def selectTuner() = sendCommand("02FN\r\n")
 	def selectLaptop() = sendCommand("04FN\r\n")
+	def selectTV() = sendCommand("10FN\r\n")
 }

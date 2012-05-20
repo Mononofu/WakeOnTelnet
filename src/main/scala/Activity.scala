@@ -143,6 +143,8 @@ class MainActivity extends Activity with TypedActivity {
 
 	findView(TR.laptopbtn).onClick = () => status.text = Commander.selectLaptop()
 
+	findView(TR.tvbtn).onClick = () => status.text = Commander.selectTV()
+
 	findView(TR.alarmbtn).onClick = () => showDialog(Constants.TIME_DIALOG_ID)
 
 	findView(TR.alarmlistbtn).onClick = () => {
